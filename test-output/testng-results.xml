@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43267" started-at="2015-08-31T04:35:34Z" finished-at="2015-08-31T04:36:17Z">
+    <groups>
+    </groups>
+    <test name="TestLogin" duration-ms="17074" started-at="2015-08-31T04:35:34Z" finished-at="2015-08-31T04:35:51Z">
+      <class name="com.urbanladder.com.tests.TestLoginPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="setup" is-config="true" duration-ms="8604" started-at="2015-08-31T10:05:34Z" finished-at="2015-08-31T10:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupTestLoginPageURL()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="setupTestLoginPageURL" is-config="true" duration-ms="1297" started-at="2015-08-31T10:05:42Z" finished-at="2015-08-31T10:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestLoginPageURL -->
+        <test-method status="PASS" signature="test_login_Page_InCorrect()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="test_login_Page_InCorrect" duration-ms="1783" started-at="2015-08-31T10:05:44Z" finished-at="2015-08-31T10:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_Page_InCorrect -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="teardown" is-config="true" duration-ms="0" started-at="2015-08-31T10:05:45Z" finished-at="2015-08-31T10:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setupTestLoginPageURL()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="setupTestLoginPageURL" is-config="true" duration-ms="314" started-at="2015-08-31T10:05:45Z" finished-at="2015-08-31T10:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestLoginPageURL -->
+        <test-method status="PASS" signature="test_login_Page_Correct()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="test_login_Page_Correct" duration-ms="5063" started-at="2015-08-31T10:05:46Z" finished-at="2015-08-31T10:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_Page_Correct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="teardown" is-config="true" duration-ms="1" started-at="2015-08-31T10:05:51Z" finished-at="2015-08-31T10:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown_super()[pri:0, instance:com.urbanladder.com.tests.TestLoginPage@51b279c9]" name="teardown_super" is-config="true" duration-ms="0" started-at="2015-08-31T10:05:51Z" finished-at="2015-08-31T10:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown_super -->
+      </class> <!-- com.urbanladder.com.tests.TestLoginPage -->
+    </test> <!-- TestLogin -->
+    <test name="TestOrder" duration-ms="26152" started-at="2015-08-31T04:35:51Z" finished-at="2015-08-31T04:36:17Z">
+      <class name="com.urbanladder.com.tests.TestOrderPage">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="beforesuite" is-config="true" duration-ms="9" started-at="2015-08-31T10:05:34Z" finished-at="2015-08-31T10:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="setup" is-config="true" duration-ms="2108" started-at="2015-08-31T10:05:51Z" finished-at="2015-08-31T10:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setTestOrderPageURL()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="setTestOrderPageURL" is-config="true" duration-ms="1" started-at="2015-08-31T10:05:53Z" finished-at="2015-08-31T10:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestOrderPageURL -->
+        <test-method status="PASS" signature="test_order_search()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="test_order_search" duration-ms="21859" started-at="2015-08-31T10:05:53Z" finished-at="2015-08-31T10:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_order_search -->
+        <test-method status="PASS" signature="setTestOrderPageURL()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="setTestOrderPageURL" is-config="true" duration-ms="1" started-at="2015-08-31T10:06:15Z" finished-at="2015-08-31T10:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestOrderPageURL -->
+        <test-method status="PASS" signature="new_order()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="new_order" duration-ms="2177" started-at="2015-08-31T10:06:15Z" finished-at="2015-08-31T10:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new_order -->
+        <test-method status="PASS" signature="teardown_super()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="teardown_super" is-config="true" duration-ms="0" started-at="2015-08-31T10:06:17Z" finished-at="2015-08-31T10:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown_super -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.urbanladder.com.tests.TestOrderPage@1efee8e7]" name="aftersuite" is-config="true" duration-ms="246" started-at="2015-08-31T10:06:17Z" finished-at="2015-08-31T10:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.urbanladder.com.tests.TestOrderPage -->
+    </test> <!-- TestOrder -->
+  </suite> <!-- Suite -->
+</testng-results>

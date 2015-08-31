@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.urbanladder.com.spree_automation.TestNGExampleTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.834 sec <<< FAILURE!
+verifyForgotPasswordPage(com.urbanladder.com.spree_automation.TestNGExampleTests)  Time elapsed: 4.376 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Wrong text] but found [Change your password]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.urbanladder.com.spree_automation.TestNGExampleTests.verifyForgotPasswordPage(TestNGExampleTests.java:43)
+

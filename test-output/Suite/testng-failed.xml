@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.urbanladder.com.retryAnalyser.RetryListener"/>
+  </listeners>
+  <test name="TestOrder(failed)" parallel="none">
+    <classes>
+      <class name="com.urbanladder.com.tests.TestOrderPage">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="setup"/>
+          <include name="setTestOrderPageURL"/>
+          <include name="teardown_super"/>
+          <include name="aftersuite"/>
+          <include name="new_order"/>
+        </methods>
+      </class> <!-- com.urbanladder.com.tests.TestOrderPage -->
+      <class name="com.urbanladder.com.tests.TestLoginPage">
+        <methods>
+          <include name="setup"/>
+          <include name="setupTestLoginPageURL"/>
+          <include name="teardown_super"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.urbanladder.com.tests.TestLoginPage -->
+    </classes>
+  </test> <!-- TestOrder(failed) -->
+</suite> <!-- Failed suite [Suite] -->
